@@ -1,0 +1,57 @@
+<div class="card" *ngIf="workExperienceObj">
+  <div class="card-header text-center text-white bg-dark">
+    <h5 class="card-title">{{ workExperienceObj.title }}</h5>
+  </div>
+  <div class="card-body">
+    <div *ngFor="let item of workExperienceObj.items; let i = index">
+
+      <div class="row justify-content-md-center text-center">
+
+        <div class="col-sm-4 bli">
+
+          
+          <img *ngIf="item.img" style="max-width: 330px; padding-bottom: 5px" src="../assets/img/work-experience/{{ item.img }}" alt="{{ item.company }}"
+            height="80">
+
+          <br>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="card-text">
+                {{ item.charge }}
+                <br>
+                <small class="text-muted">{{ item.city }}</small>
+              </p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-6 bli">
+              <small class="text-muted">{{ item.startMonth }}</small>
+              <br>
+              <h5 class="card-title">{{ item.startYear }}</h5>
+            </div>
+            <div class="col-6 bli">
+              <small class="text-muted">{{ item.endMonth }}</small>
+              <br>
+              <h5 class="card-title">{{ item.endYear }}</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-8">
+          <h4 class="card-title d-none d-sm-block">{{ item.company }}</h4>
+          <p class="card-text text-justify">
+            <small class="text-muted">Descripción</small>
+            <br> {{ item.descripcion }}
+          </p>
+        </div>
+        
+      </div>
+      <hr *ngIf="i < workExperienceObj.items.length - 1">
+    </div>
+  </div>
+</div>

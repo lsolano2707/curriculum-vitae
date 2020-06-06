@@ -1,0 +1,109 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand">Curriculum Vitae</a>
+  <div class="form-inline">
+    <select class="custom-select mr-sm-2" #selectedLanguage (change)='globals.language = selectedLanguage.value'>
+        <option *ngFor="let language of globals.languages" value="{{ language.id }}">{{ language.description }}</option>
+      </select>
+    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+
+    <!-- <button class="btn btn-danger my-2 my-sm-0" (click)="generatePdf()">{{globals.language == 1 ? 'Download PDF' : 'Descargar PDF'}}</button>
+    <button class="btn btn-danger my-2 my-sm-0" (click)="generatePdf0()">Descargar PDF 2</button> -->
+    <!-- <button class="btn btn-danger my-2 my-sm-0" (click)="generatePdf3()">Descargar PDF 3</button> -->
+  </div>
+</nav>
+
+<br>
+<div class="container">
+
+  <div class="row">
+    <div class="col-4 sidebar-wrapper">
+
+      <br>
+
+      <div class="row form-group text-center">
+        <div class="col-12">
+          <img class="img-profile rounded-circle"
+            src="./assets/img/profile.jpg">
+          <br>
+          <br>
+          <h6 class="font-weight-bold">Leonardo Solano Arguello</h6>
+          <p>Systems Engineer</p>
+          <ul class="blh">
+            <li class="bli">Medellin</li>
+            <li class="bli">Colombia</li>
+          </ul>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- KNOWLEDGES -->
+      <h5 class="title">{{ knowledgesObj['title_' + globals.language] }}</h5>
+      <br>
+      <div *ngFor="let item of knowledgesObj.items" class="row form-group">
+        <div class="col-12">
+          <h6 class="font-weight-bold">{{ item['subtitle_' + globals.language] }}</h6>
+
+          <div *ngFor="let item2 of item.items; let i = index" class="row">
+            <div class="col-7 option">{{ item2['text_' + globals.language] }}</div>
+            <div class="col-5">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" [style.width.%]="item2.percentage"
+                  aria-valuenow="item2.percentage" aria-valuemin="0" aria-valuemax="100">{{ item2.percentage }}%</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- /KNOWLEDGES -->
+
+    </div>
+
+    <div class="col-8 main-wrapper">
+
+      <br>
+
+      <!-- SUMMARY -->
+      <div class="row form-group">
+        <div class="col-12">
+
+          <h5 class="title">{{ summaryObj['title_' + globals.language] }}</h5>
+          <p class="text-justify">{{ summaryObj['content_' + globals.language] }}</p>
+        </div>
+      </div>
+      <!-- /SUMMARY -->
+
+      <!-- WORK EXPERIENCE -->
+      <div class="row form-group">
+        <div class="col-12">
+
+          <h5 class="title">{{ workExperienceObj['title_' + globals.language] }}</h5>
+
+          <div *ngFor="let item of workExperienceObj.items; let i = index">
+            <div class="row">
+              <div class="col-6 text-left">
+                <h6 class="font-weight-bold">{{ item['position_' + globals.language] }}</h6>
+              </div>
+              <div class="col-6 text-right">
+                <h6 class="font-weight-bold">{{ item['startMonth_' + globals.language] }} {{ item['startYear_' + globals.language] }} - {{ item['endMonth_' + globals.language] }} {{ item['endYear_' + globals.language] }}</h6>
+              </div>
+            </div>
+            <h6 style="font-size: .8rem;">{{ item.company }} - {{ item.city }}</h6>
+            <p class="text-justify">{{ item['descripcion_' + globals.language] }}</p>
+
+            <hr *ngIf="i < workExperienceObj.items.length - 1">
+          </div>
+
+
+        </div>
+      </div>
+      <!-- /WORK EXPERIENCE -->
+
+      <br>
+
+    </div>
+
+  </div>
+  <br>
+</div>

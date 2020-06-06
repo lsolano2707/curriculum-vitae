@@ -1,0 +1,38 @@
+{
+    "titleSpanish": "INFORMACIÓN PERSONAL",
+    "titleEnglish": "PERSONAL INFORMATION",
+    "items": [
+      {
+        "titleSpanish": "Fecha de Nacimiento",
+        "titleEnglish": "Date of Birth",
+        "textSpanish": "07 de Marzo de 1990",
+        "textEnglish": "07 March 1990",
+        "minTextSpanish": "Barranquilla - Atlántico",
+        "minTextEnglish": "Barranquilla - Atlantico"
+      },
+      {
+        "titleSpanish": "Cédula de Ciudadanía N°",
+        "titleEnglish": "Identity Card Number",
+        "textSpanish": "1.140.828.507",
+        "textEnglish": "1.140.828.507",
+        "minTextSpanish": "Barranquilla - Atlántico",
+        "minTextEnglish": "Barranquilla - Atlantico"
+      },
+      {
+        "titleSpanish": "Edad",
+        "titleEnglish": "Age",
+        "textSpanish": "1990/03/07",
+        "textEnglish": "1990/03/07",
+        "minTextSpanish": "",
+        "minTextEnglish": ""
+      },
+      {
+        "titleSpanish": "Estado Civil",
+        "titleEnglish": "Marital Status",
+        "textSpanish": "Union Libre",
+        "textEnglish": "Consensual Union",
+        "minTextSpanish": "",
+        "minTextEnglish": ""
+      }      
+    ]
+  }
