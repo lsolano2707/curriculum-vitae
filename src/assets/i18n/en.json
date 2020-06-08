@@ -1,0 +1,211 @@
+{
+  "profile": {
+    "name": "Leonardo Solano Arguello",
+    "title": "Full Stack Developer"
+  },
+  "contact": {
+    "title": "CONTACT",
+    "items": [
+      {
+        "icon": "icon-location2",
+        "value": "Medellín, Colombia"
+      },
+      {
+        "icon": "icon-mobile",
+        "value": "(+57) 3017478385",
+        "href": "tel:+573017478385"
+      },
+      {
+        "icon": "icon-mail2",
+        "value": "lsolano4@gmail.com",
+        "href": "mailto:lsolano4@gmail.com"
+      },
+      {
+        "icon": "icon-linkedin",
+        "value": "linkedin.com/in/lsolano2707",
+        "href": "https://www.linkedin.com/in/lsolano2707/"
+      },
+      {
+        "icon": "icon-github",
+        "value": "github.com/lsolano2707",
+        "href": "https://github.com/lsolano2707"
+      },
+      {
+        "icon": "icon-link",
+        "value": "www.leonardosolano.com",
+        "href": "https://www.leonardosolano.com"
+      }
+    ]
+  },
+  "skills": {
+    "title": "SKILLS",
+    "items": [
+      {
+        "title": "Front-End",
+        "items": [
+          {
+            "name": "Angular",
+            "scale": 4
+          },
+          {
+            "name": "Bootstrap 4",
+            "scale": 4
+          }
+        ]
+      },
+      {
+        "title": "Back-End",
+        "items": [
+          {
+            "name": "Nodejs",
+            "scale": 4
+          },
+          {
+            "name": "Docker",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Web Services",
+        "items": [
+          {
+            "name": "REST",
+            "scale": 5
+          },
+          {
+            "name": "SOAP",
+            "scale": 3
+          },
+          {
+            "name": "GraphQL",
+            "scale": 2
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "items": [
+          {
+            "name": "Oracle",
+            "scale": 3
+          },
+          {
+            "name": "Postgres",
+            "scale": 4
+          },
+          {
+            "name": "MySQL",
+            "scale": 4
+          },
+          {
+            "name": "MongoDB",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Cloud Platforms",
+        "items": [
+          {
+            "name": "AWS",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Others",
+        "items": [
+          {
+            "name": "SCRUM",
+            "scale": 5
+          },
+          {
+            "name": "Docker",
+            "scale": 4
+          },
+          {
+            "name": "Serverless",
+            "scale": 4
+          },
+          {
+            "name": "Git",
+            "scale": 4
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "title": "SUMMARY",
+    "description": "SOA Architect and Full Stack Developer, I am 7 years of experience developing software, passionate about programming, and new technologies."
+  },
+  "workExperience": {
+    "title": "WORK EXPERIENCE",
+    "items": [
+      {
+        "company": "Bancolombia",
+        "companyUrl": "https://www.grupobancolombia.com/",
+        "companyDescripcion": "Bancolombia is an international financial group leader in Colombia with more than 20,000 employees around the world",
+        "position": "Full Stack Developer",
+        "location": "Medellín, Antioquia",
+        "startDate": "Mar 2018",
+        "endDate": "Aug 2019",
+        "descripcion": "Full stack developer for a new web application to enroll new customers who want to obtain a credit from home.",
+        "responsibilities": [
+          "Developed an Angular 7 based application for new costumers.",
+          "Built new API using java and Sprint Boot Framework.",
+          "Designed microservices architecture.",
+          "Designed of database model on Mysql",
+          "Implemented unit tests using JUnit.",
+          "Deployed on AWS using CI and CD."
+        ]
+      },
+      {
+        "company": "Ingeneo S.A.S",
+        "companyUrl": "https://ingeneo.com.co/",
+        "companyDescripcion": "Ingeneo is a company made up of young and enterprising people, with the aim of providing products and services of computer engineering with cutting-edge technology",
+        "position": "Senior Developer",
+        "location": "Medellín, Antioquia",
+        "startDate": "Jun 2017",
+        "endDate": "Mar 2018",
+        "descripcion": "Full stack developer for the e-commerce of Grupo Exito <a class='font-weight-bold' href='https://www.exito.com/' target='_blank'>www.exito.com</a>",
+        "responsibilities": [
+          "Developed a new Marketplace module using JSP.",
+          "Built new REST services using java 8.",
+          "Development and maintenance of new features."
+        ]
+      },
+      {
+        "company": "Pragma S.A.",
+        "companyUrl": "https://www.pragma.com.co/",
+        "companyDescripcion": "Pragma is a team of more than 380 people, present in more than 5 countries, with over 23 years in the market",
+        "position": "Project Engineer",
+        "location": "Medellín, Antioquia",
+        "startDate": "Aug 2014",
+        "endDate": "Jun 2017",
+        "descripcion": "Backend developer for payment portal for Grupo Aval <a class='font-weight-bold' href='https://avalpaycenter.com/' target='_blank'>www.avalpaycenter.com</a>",
+        "responsibilities": [
+          "Built new REST services using java 8.",
+          "Consume internal and external SOAP web services.",
+          "Designed of database model on Oracle 11c.",
+          "Development and maintenance of new releases."
+        ]
+      },
+      {
+        "company": "Metropolitana University",
+        "companyUrl": "www.unimetro.edu.co/",
+        "companyDescripcion": "Metropolitana University is a higher education institution specialized in health sciences",
+        "position": "Full Stack Developer",
+        "location": "Barranquilla, Atlantico",
+        "startDate": "Aug 2012",
+        "endDate": "Aug 2014",
+        "descripcion": "Metropolitana University is a higher education institution specialized in health sciences",
+        "responsibilities": [
+          "XXXXXXXXXXX.",
+          "XXXXXXXXXXX."
+        ]
+      }
+    ]
+  }
+}

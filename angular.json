@@ -5,7 +5,11 @@
   "projects": {
     "curriculum-vitae": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,13 +29,10 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/styles.css"
+              "src/styles.scss",
+              "src/assets/icons/style.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.slim.min.js",
-              "node_modules/popper.js/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -93,7 +94,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -128,6 +129,6 @@
   },
   "defaultProject": "curriculum-vitae",
   "cli": {
-    "analytics": "60232611-9ead-49d2-a88c-bcada78d645a"
+    "analytics": "6e89d227-9ab8-4915-85d1-2130f70e09c8"
   }
 }

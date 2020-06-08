@@ -1,0 +1,200 @@
+{
+  "profile": {
+    "name": "Leonardo Solano Arguello",
+    "title": "Full Stack Developer"
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "items": [
+      {
+        "icon": "icon-location2",
+        "value": "Medellín, Colombia"
+      },
+      {
+        "icon": "icon-mobile",
+        "value": "(+57) 3017478385",
+        "href": "tel:+573017478385"
+      },
+      {
+        "icon": "icon-mail2",
+        "value": "lsolano4@gmail.com",
+        "href": "mailto:lsolano4@gmail.com"
+      },
+      {
+        "icon": "icon-linkedin",
+        "value": "linkedin.com/in/lsolano2707",
+        "href": "https://www.linkedin.com/in/lsolano2707/"
+      },
+      {
+        "icon": "icon-github",
+        "value": "github.com/lsolano2707",
+        "href": "https://github.com/lsolano2707"
+      },
+      {
+        "icon": "icon-link",
+        "value": "www.leonardosolano.com",
+        "href": "https://www.leonardosolano.com"
+      }
+    ]
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "items": [
+      {
+        "title": "Front-End",
+        "items": [
+          {
+            "name": "Angular",
+            "scale": 4
+          },
+          {
+            "name": "Bootstrap 4",
+            "scale": 4
+          }
+        ]
+      },
+      {
+        "title": "Back-End",
+        "items": [
+          {
+            "name": "Nodejs",
+            "scale": 4
+          },
+          {
+            "name": "Docker",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Servicios Web",
+        "items": [
+          {
+            "name": "REST",
+            "scale": 5
+          },
+          {
+            "name": "SOAP",
+            "scale": 3
+          },
+          {
+            "name": "GraphQL",
+            "scale": 2
+          }
+        ]
+      },
+      {
+        "title": "Bases de Datos",
+        "items": [
+          {
+            "name": "Oracle",
+            "scale": 3
+          },
+          {
+            "name": "Postgres",
+            "scale": 4
+          },
+          {
+            "name": "MySQL",
+            "scale": 4
+          },
+          {
+            "name": "MongoDB",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Plataformas Nube",
+        "items": [
+          {
+            "name": "AWS",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Otros",
+        "items": [
+          {
+            "name": "SCRUM",
+            "scale": 5
+          },
+          {
+            "name": "Docker",
+            "scale": 4
+          },
+          {
+            "name": "Serverless",
+            "scale": 4
+          },
+          {
+            "name": "Git",
+            "scale": 4
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "title": "PERFIL",
+    "description": "Arquitecto SOA y desarrollador Full Stack con 7 años de experiencia desarrollando software, apasionado por la programación y las nuevas tecnologías."
+  },
+  "workExperience": {
+    "title": "EXPERIENCIA LABORAL",
+    "items": [
+      {
+        "company": "Bancolombia",
+        "companyUrl": "https://www.grupobancolombia.com/",
+        "position": "Desarrollador Full Stack",
+        "location": "Medellín, Antioquia",
+        "startDate": "Mar 2018",
+        "endDate": "Ago 2019",
+        "descripcion": "Bancolombia es un grupo financiero internacional líder en Colombia con más de 20,000 empleados en todo el mundo",
+        "responsibilities": [
+          "Developed an Angular 7 based application for new costumers.",
+          "Built new API services using java and Sprint Boot Framework."
+        ]
+      },
+      {
+        "company": "Ingeneo S.A.S",
+        "companyUrl": "https://ingeneo.com.co/",
+        "position": "Desarrollador Senior",
+        "location": "Medellín, Antioquia",
+        "startDate": "Jun 2017",
+        "endDate": "Mar 2018",
+        "descripcion": "Ingeneo es una empresa formada por personas jóvenes y emprendedoras, con el objetivo de proporcionar productos y servicios de ingeniería informática con tecnología de punta",
+        "responsibilities": [
+          "XXXXXXXXXXX.",
+          "XXXXXXXXXXX."
+        ]
+      },
+      {
+        "company": "Pragma S.A.",
+        "companyUrl": "https://www.pragma.com.co/",
+        "position": "Ingeniero de Proyectos",
+        "location": "Medellín, Antioquia",
+        "startDate": "Ago 2014",
+        "endDate": "Jun 2017",
+        "descripcion": "Pragma es un equipo de más de 380 personas, presente en más de 5 países, con más de 23 años en el mercado",
+        "responsibilities": [
+          "XXXXXXXXXXX.",
+          "XXXXXXXXXXX."
+        ]
+      },
+      {
+        "company": "Universidad Metropolitana",
+        "companyUrl": "www.unimetro.edu.co/",
+        "position": "Desarrollador Full Stack",
+        "location": "Barranquilla, Atlantico",
+        "startDate": "Ago 2012",
+        "endDate": "Ago 2014",
+        "descripcion": "Universidad Metropolitana es una institución de educación superior especializada en ciencias de la salud",
+        "responsibilities": [
+          "XXXXXXXXXXX.",
+          "XXXXXXXXXXX."
+        ]
+      }
+    ]
+  }
+}
