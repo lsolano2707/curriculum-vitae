@@ -52,6 +52,10 @@
             "scale": 4
           },
           {
+            "name": "Javascript",
+            "scale": 4
+          },
+          {
             "name": "Bootstrap 4",
             "scale": 4
           },
@@ -137,6 +141,19 @@
             "scale": 4
           }
         ]
+      }
+    ]
+  },
+  "languages": {
+    "title": "LANGUAGES",
+    "items": [
+      {
+        "name": "Español",
+        "scale": 5
+      },
+      {
+        "name": "Ingles",
+        "scale": 3
       }
     ]
   },
