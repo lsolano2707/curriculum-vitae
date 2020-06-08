@@ -9,12 +9,12 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   langs: string[] = [];
-  currentLanguage = 'en';
+  currentLanguage = 'english';
 
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('en');
+    this.translate.setDefaultLang('english');
     this.translate.use(this.currentLanguage);
-    this.translate.addLangs(['en', 'es']);
+    this.translate.addLangs(['english', 'spanish']);
     this.langs = this.translate.getLangs();
   }
 

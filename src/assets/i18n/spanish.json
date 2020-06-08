@@ -48,7 +48,15 @@
             "scale": 4
           },
           {
+            "name": "TypeScript",
+            "scale": 4
+          },
+          {
             "name": "Bootstrap 4",
+            "scale": 4
+          },
+          {
+            "name": "Sass",
             "scale": 4
           }
         ]
@@ -59,10 +67,6 @@
           {
             "name": "Nodejs",
             "scale": 4
-          },
-          {
-            "name": "Docker",
-            "scale": 3
           }
         ]
       },

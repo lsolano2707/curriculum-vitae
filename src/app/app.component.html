@@ -6,7 +6,7 @@
       #langSelected
       (change)="changeLanguage(langSelected.value)"
     >
-      <option *ngFor="let lang of langs" [value]="lang">{{ lang }}</option>
+      <option *ngFor="let lang of langs" [value]="lang">{{ lang | titlecase }}</option>
     </select>
   </div>
 </nav>
@@ -19,24 +19,39 @@
       <div class="col-md-4 sidebar-wrapper">
         <div class="card-body">
 
+          <!-- PROFILE -->
           <div class="row form-group text-center">
             <div class="col-12">
               <app-profile></app-profile>
             </div>
           </div>
+          <!-- /PROFILE -->
 
 
+          <!-- CONTACT -->
           <div class="row form-group">
             <div class="col-12">
               <app-contact></app-contact>
             </div>
           </div>
+          <!-- /CONTACT -->
 
+          <!-- SKILLS -->
           <div class="row form-group">
             <div class="col-12">
               <app-skills></app-skills>
             </div>
           </div>
+          <!-- /SKILLS -->
+
+          <!-- LANGUAGES -->
+          <div class="row form-group">
+            <div class="col-12">
+              <app-languages></app-languages>
+            </div>
+          </div>
+          <!-- /LANGUAGES -->
+
         </div>
       </div>
       <!-- /SIDEBAR WRAPPER -->
