@@ -48,6 +48,10 @@
             "scale": 4
           },
           {
+            "name": "React",
+            "scale": 3
+          },
+          {
             "name": "TypeScript",
             "scale": 4
           },
@@ -57,6 +61,10 @@
           },
           {
             "name": "Bootstrap 4",
+            "scale": 4
+          },
+          {
+            "name": "Tailwindcss",
             "scale": 4
           },
           {
@@ -87,7 +95,7 @@
           },
           {
             "name": "GraphQL",
-            "scale": 2
+            "scale": 3
           }
         ]
       },
@@ -133,6 +141,10 @@
             "scale": 4
           },
           {
+            "name": "Kubernets",
+            "scale": 3
+          },
+          {
             "name": "Serverless",
             "scale": 4
           },
@@ -159,7 +171,7 @@
   },
   "summary": {
     "title": "SUMMARY",
-    "description": "A SOA Architect and Full Stack Developer with 7 years of experience developing software, passionate about programming, and new technologies."
+    "description": "A Full Stack Developer with 7 years of experience developing software, passionate about programming, and new technologies."
   },
   "workExperience": {
     "title": "WORK EXPERIENCE",
@@ -232,7 +244,7 @@
       },
       {
         "company": "Metropolitana University",
-        "companyUrl": "www.unimetro.edu.co/",
+        "companyUrl": "http://www.unimetro.edu.co/",
         "companyDescripcion": "Metropolitana University is a higher education institution specialized in health sciences",
         "position": "Full Stack Developer",
         "location": "Barranquilla, Atlantico",
@@ -246,6 +258,69 @@
           "Optimization slow queries on Oracle 11c.",
           "Development and maintenance of new features."
         ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "PERSONAL PROJECTS",
+    "items": [
+      {
+        "name": "Blucoding ",
+        "url": "https://blucoding.vercel.app/",
+        "startDate": "Jun 2020",
+        "endDate": "Current",
+        "descripcion": "Full stack developer for an international company.",
+        "technologies": "React - Tailwindcss - Contentful - Vercel",
+        "responsibilities": [
+          "Develop and maintenance of new releases using React and Contentful.",
+          "Define the structure and components for the project, making sure they are reusable.",
+          "Organize documentation.",
+          "Deployed on Vercel."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "EDUCATION",
+    "items": [
+      {
+        "degree": "System Engineer",
+        "institution": "Universidad de la Costa",
+        "location": "Barranquilla, Atlantico",
+        "startDate": "2008",
+        "endDate": "2013"
+      }
+    ]
+  },
+  "certification": {
+    "title": "CERTIFICATIONS",
+    "items": [
+      {
+        "degree": " Scrum Master",
+        "institution": "Global TI",
+        "location": "Medellín, Antioquia",
+        "date": "Mar 2019"
+      },
+      {
+        "degree": "SOA Architect",
+        "institution": "Itehl Consulting",
+        "location": "Medellín, Antioquia",
+        "date": "Jun 2018"
+      }
+    ]
+  },
+  "references": {
+    "title": "REFERENCES",
+    "items": [
+      {
+        "name": " Danitza Bonilla",
+        "degree": "Frontend Developer",
+        "phone": "(+57) 3108901102"
+      },
+      {
+        "name": " Melany Rozo",
+        "degree": "Software Development Manager",
+        "phone": "(+57) 3162282956"
       }
     ]
   }

@@ -1,12 +1,14 @@
 <nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand">Curriculum Vitae</a>
+  <a class="navbar-brand">Resume</a>
   <div class="form-inline">
     <select
       class="custom-select mr-sm-2"
       #langSelected
       (change)="changeLanguage(langSelected.value)"
     >
-      <option *ngFor="let lang of langs" [value]="lang">{{ lang | titlecase }}</option>
+      <option *ngFor="let lang of langs" [value]="lang">
+        {{ lang | titlecase }}
+      </option>
     </select>
   </div>
 </nav>
@@ -18,7 +20,6 @@
       <!-- SIDEBAR WRAPPER -->
       <div class="col-md-4 sidebar-wrapper">
         <div class="card-body">
-
           <!-- PROFILE -->
           <div class="row form-group text-center">
             <div class="col-12">
@@ -26,7 +27,6 @@
             </div>
           </div>
           <!-- /PROFILE -->
-
 
           <!-- CONTACT -->
           <div class="row form-group">
@@ -52,6 +52,28 @@
           </div>
           <!-- /LANGUAGES -->
 
+          <br>
+          <br>
+          <br>
+
+          <br>
+          <br>
+          <br>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <!-- REFERENCES -->
+          <div class="row form-group">
+            <div class="col-12">
+              <app-references></app-references>
+            </div>
+          </div>
+          <!-- /REFERENCES -->
+          
         </div>
       </div>
       <!-- /SIDEBAR WRAPPER -->
@@ -59,7 +81,6 @@
       <!-- MAIN WRAPPER -->
       <div class="col-md-8 main-wrapper">
         <div class="card-body">
-
           <!-- SUMMARY -->
           <div class="row form-group">
             <div class="col-12">
@@ -76,6 +97,32 @@
           </div>
           <!-- /WORK EXPERIENCE -->
 
+          <!-- PROJECTS -->
+          <div class="row form-group">
+            <div class="col-12">
+              <app-projects></app-projects>
+            </div>
+          </div>
+          <!-- /PROJECTS -->
+
+          <br>
+          <br>
+
+          <!-- EDUCATION -->
+          <div class="row form-group">
+            <div class="col-12">
+              <app-education></app-education>
+            </div>
+          </div>
+          <!-- /EDUCATION -->
+
+          <!-- CERTIFICATION -->
+          <div class="row form-group">
+            <div class="col-12">
+              <app-certification></app-certification>
+            </div>
+          </div>
+          <!-- /CERTIFICATION -->
         </div>
       </div>
       <!-- /MAIN WRAPPER -->

@@ -14,13 +14,17 @@ import { SkillsComponent } from './skills/skills.component';
 import { SummaryComponent } from './summary/summary.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { EducationComponent } from './education/education.component';
+import { CertificationComponent } from './certification/certification.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ReferencesComponent } from './references/references.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
-  declarations: [AppComponent, ProfileComponent, ContactComponent, RatingScaleComponent, SkillsComponent, SummaryComponent, WorkExperienceComponent, LanguagesComponent],
+  declarations: [AppComponent, ProfileComponent, ContactComponent, RatingScaleComponent, SkillsComponent, SummaryComponent, WorkExperienceComponent, LanguagesComponent, EducationComponent, CertificationComponent, ProjectsComponent, ReferencesComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
