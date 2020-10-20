@@ -171,7 +171,7 @@
   },
   "summary": {
     "title": "SUMMARY",
-    "description": "A Full Stack Developer with 7 years of experience developing software, passionate about programming, and new technologies."
+    "description": "A Full Stack Developer over 7+ years of experience developing software, passionate about programming, and new technologies."
   },
   "workExperience": {
     "title": "WORK EXPERIENCE",
@@ -190,7 +190,7 @@
           "Define the structure and components for the project, making sure they are reusable.",
           "Build microservices using express.",
           "Implemented unit tests using Jest.",
-          "Deployed on Azure using CI and CD."
+          "Deployed on AWS using CI and CD with Jenkins."
         ]
       },
       {
@@ -206,7 +206,7 @@
           "Developed an Angular 7 based application for new costumers.",
           "Built new API using java and Sprint Boot Framework.",
           "Designed microservices architecture.",
-          "Designed of database model on Mysql",
+          "Designed of database model on MySQL",
           "Implemented unit tests using JUnit.",
           "Deployed on AWS using CI and CD."
         ]
@@ -269,7 +269,7 @@
         "url": "https://blucoding.vercel.app/",
         "startDate": "Jun 2020",
         "endDate": "Current",
-        "descripcion": "Full stack developer for an international company.",
+        "descripcion": "Platform in development that seeks to reinforce the knowledge of all people who want to enter the world of programming.",
         "technologies": "React - Tailwindcss - Contentful - Vercel",
         "responsibilities": [
           "Develop and maintenance of new releases using React and Contentful.",

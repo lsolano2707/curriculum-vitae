@@ -171,11 +171,28 @@
   },
   "summary": {
     "title": "PERFIL",
-    "description": "Arquitecto SOA y desarrollador Full Stack con 7 años de experiencia desarrollando software, apasionado por la programación y las nuevas tecnologías."
+    "description": "Desarrollador Full Stack con más de 7 años de experiencia en el desarrollo de software, apasionado por la programación y las nuevas tecnologías."
   },
   "workExperience": {
     "title": "EXPERIENCIA LABORAL",
     "items": [
+      {
+        "company": "PSL ",
+        "companyUrl": "https://www.psl.com.co/",
+        "companyDescripcion": "PSL es una empresa de desarrollo de software ágil, especializada en ofrecer servicios de TI desde sus centros de desarrollo en Latinoamérica. Nuestro equipo de 500+ colaboradores y desarrolladores de software, es pionero en la adopción de mejores prácticas de ingeniería de Software (desarrollo ágil, SCRUM) y es el principal exportador Colombiano de Servicios de software hacia EEUU",
+        "position": "Full Stack Developer",
+        "location": "Medellín, Antioquia",
+        "startDate": "Ago 2019",
+        "endDate": "Actualmente",
+        "descripcion": "Desarrollador Full Stack para un cliente internacional.",
+        "responsibilities": [
+          "Desarrollar y mantener los nuevos releases utilizando angular 9 y Nodejs.",
+          "Definir la estructura y los componentes del proyecto, asegurándose de que sean reutilizables.",
+          "Construir nuevos microservicios utilizando express.",
+          "Implementar pruebas unitarias usando Jest.",
+          "Desplegar en AWS usando CI and CD con Jenkins."
+        ]
+      },
       {
         "company": "Bancolombia",
         "companyUrl": "https://www.grupobancolombia.com/",
@@ -185,8 +202,12 @@
         "endDate": "Ago 2019",
         "descripcion": "Bancolombia es un grupo financiero internacional líder en Colombia con más de 20,000 empleados en todo el mundo",
         "responsibilities": [
-          "Developed an Angular 7 based application for new costumers.",
-          "Built new API services using java and Sprint Boot Framework."
+          "Desarrollar una aplicación basada en Angular 7 para nuevos clientes.",
+          "Construir una nueva API usando java y Sprint Boot Framework.",
+          "Diseñe la arquitectura de los nuevos microservicios.",
+          "Diseñar el modelo de base de datos usando MySQL.",
+          "Implementar pruebas unitarias usando JUnit.",
+          "Desplegar en AWS usando CI and CD."
         ]
       },
       {
@@ -198,8 +219,9 @@
         "endDate": "Mar 2018",
         "descripcion": "Ingeneo es una empresa formada por personas jóvenes y emprendedoras, con el objetivo de proporcionar productos y servicios de ingeniería informática con tecnología de punta",
         "responsibilities": [
-          "XXXXXXXXXXX.",
-          "XXXXXXXXXXX."
+          "Desarrollar un nuevo módulo Marketplace usando JSP.",
+          "Construir y exponer nuevos servicios REST usando java 8.",
+          "Desarrollar y mantener las nuevas funcionalidades."
         ]
       },
       {
@@ -211,8 +233,9 @@
         "endDate": "Jun 2017",
         "descripcion": "Pragma es un equipo de más de 380 personas, presente en más de 5 países, con más de 23 años en el mercado",
         "responsibilities": [
-          "XXXXXXXXXXX.",
-          "XXXXXXXXXXX."
+          "Construir y exponer nuevos servicios REST usando java 8.",
+          "Consumir servicios SOAP internos y externos.",
+          "Desarrollar y mantener los nuevos releases."
         ]
       },
       {
@@ -224,8 +247,11 @@
         "endDate": "Ago 2014",
         "descripcion": "Universidad Metropolitana es una institución de educación superior especializada en ciencias de la salud",
         "responsibilities": [
-          "XXXXXXXXXXX.",
-          "XXXXXXXXXXX."
+          "Liderar el departamento de TI durante 3 meses.",
+          "Atender nuevos requerimientos y administrar las tareas al equipo.",
+          "Desarrollar nuevos modulos utilizando JSP y java 8.",
+          "Diseñar los nuevos modelos de base de datos en Oracle 11c.",
+          "Optimizar las consultas de poco performance en la base de datos Oracle 11c."
         ]
       }
     ]
