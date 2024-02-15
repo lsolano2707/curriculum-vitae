@@ -44,8 +44,8 @@
         "title": "Front-End",
         "items": [
           {
-            "name": "Angular",
-            "scale": 4
+            "name": "Vue Js",
+            "scale": 5
           },
           {
             "name": "React",
@@ -60,16 +60,8 @@
             "scale": 4
           },
           {
-            "name": "Bootstrap 4",
-            "scale": 4
-          },
-          {
             "name": "Tailwindcss",
-            "scale": 4
-          },
-          {
-            "name": "Sass",
-            "scale": 4
+            "scale": 5
           }
         ]
       },
@@ -78,6 +70,10 @@
         "items": [
           {
             "name": "Nodejs",
+            "scale": 4
+          },
+          {
+            "name": "Nest Js",
             "scale": 4
           }
         ]
@@ -90,10 +86,6 @@
             "scale": 5
           },
           {
-            "name": "SOAP",
-            "scale": 3
-          },
-          {
             "name": "GraphQL",
             "scale": 2
           }
@@ -103,11 +95,7 @@
         "title": "Bases de Datos",
         "items": [
           {
-            "name": "Oracle",
-            "scale": 3
-          },
-          {
-            "name": "Postgres",
+            "name": "MongoDB",
             "scale": 4
           },
           {
@@ -115,8 +103,21 @@
             "scale": 4
           },
           {
-            "name": "MongoDB",
-            "scale": 3
+            "name": "Postgres",
+            "scale": 4
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "items": [
+          {
+            "name": "Jest",
+            "scale": 4
+          },
+          {
+            "name": "Cypress",
+            "scale": 4
           }
         ]
       },

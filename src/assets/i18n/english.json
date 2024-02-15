@@ -44,8 +44,8 @@
         "title": "Front-End",
         "items": [
           {
-            "name": "Angular",
-            "scale": 4
+            "name": "Vue Js",
+            "scale": 5
           },
           {
             "name": "React",
@@ -60,16 +60,8 @@
             "scale": 4
           },
           {
-            "name": "Bootstrap 4",
-            "scale": 4
-          },
-          {
             "name": "Tailwindcss",
-            "scale": 4
-          },
-          {
-            "name": "Sass",
-            "scale": 4
+            "scale": 5
           }
         ]
       },
@@ -78,6 +70,10 @@
         "items": [
           {
             "name": "Nodejs",
+            "scale": 4
+          },
+          {
+            "name": "Nest Js",
             "scale": 4
           }
         ]
@@ -90,12 +86,8 @@
             "scale": 5
           },
           {
-            "name": "SOAP",
-            "scale": 3
-          },
-          {
             "name": "GraphQL",
-            "scale": 3
+            "scale": 2
           }
         ]
       },
@@ -103,11 +95,7 @@
         "title": "Databases",
         "items": [
           {
-            "name": "Oracle",
-            "scale": 3
-          },
-          {
-            "name": "Postgres",
+            "name": "MongoDB",
             "scale": 4
           },
           {
@@ -115,8 +103,21 @@
             "scale": 4
           },
           {
-            "name": "MongoDB",
-            "scale": 3
+            "name": "Postgres",
+            "scale": 4
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "items": [
+          {
+            "name": "Jest",
+            "scale": 4
+          },
+          {
+            "name": "Cypress",
+            "scale": 4
           }
         ]
       },
@@ -171,11 +172,45 @@
   },
   "summary": {
     "title": "SUMMARY",
-    "description": "A Full Stack Developer over 7+ years of experience developing software, passionate about programming, and new technologies."
+    "description2": "A Full Stack Developer with over 12 years years of experience developing software, passionate about programming, and new technologies.",
+    "description": "A Full Stack Developer with over 12 years of experience in the software industry. I have a lot of experience in Javascript and Typescript technologies. I love working with teams all over the world and learning about new cultures or technologies."
   },
   "workExperience": {
     "title": "WORK EXPERIENCE",
     "items": [
+      {
+        "company": "Viuboo",
+        "companyUrl": "https://viuboo.com/",
+        "companyDescripcion": "A subsidiary of FPT Corporation – the leading ICT Group in Asia, FPT Software is a global technology and IT services provider with headquarter in Vietnam.",
+        "position": "Tech Lead",
+        "location": "Remote",
+        "startDate": "May 2023",
+        "endDate": "Current",
+        "descripcion": "Tech Lead for an international company in Colombia.",
+        "responsibilities": [
+          "Support the team members.",
+          "Delegate tasks to the team.",
+          "Evaluate risks in the new developments.",
+          "Define new technologies and ensure code quality.",
+          "Build new features using Vuejs y Nodejs."
+        ]
+      },
+      {
+        "company": "FPT Software",
+        "companyUrl": "https://fptsoftware.com/",
+        "companyDescripcion": "A subsidiary of FPT Corporation – the leading ICT Group in Asia, FPT Software is a global technology and IT services provider with headquarter in Vietnam.",
+        "position": "Full Stack Developer",
+        "location": "Remote",
+        "startDate": "Aug 2021",
+        "endDate": "May 2023",
+        "descripcion": "Full stack developer for an international company in USA.",
+        "responsibilities": [
+          "Add new features using Angular 12 and Nodejs.",
+          "Define the structure and components for the project, making sure they are reusable.",
+          "Build microservices using Nestjs.",
+          "Implemented unit tests using Jest."
+        ]
+      },
       {
         "company": "PSL ",
         "companyUrl": "https://www.psl.com.co/",
@@ -183,8 +218,8 @@
         "position": "Full Stack Developer",
         "location": "Medellín, Antioquia",
         "startDate": "Aug 2019",
-        "endDate": "Current",
-        "descripcion": "Full stack developer for an international company.",
+        "endDate": "Aug 2021",
+        "descripcion": "Full stack developer for an international company in Canada.",
         "responsibilities": [
           "Develop and maintenance of new releases using Angular 9 and Nodejs.",
           "Define the structure and components for the project, making sure they are reusable.",
@@ -194,69 +229,14 @@
         ]
       },
       {
-        "company": "Bancolombia",
-        "companyUrl": "https://www.grupobancolombia.com/",
-        "companyDescripcion": "Bancolombia is an international financial group leader in Colombia with more than 20,000 employees around the world",
-        "position": "Full Stack Developer",
-        "location": "Medellín, Antioquia",
-        "startDate": "Mar 2018",
-        "endDate": "Aug 2019",
-        "descripcion": "Full stack developer for a new web application to enroll new customers who want to obtain a credit from home.",
-        "responsibilities": [
-          "Developed an Angular 7 based application for new costumers.",
-          "Built new API using java and Sprint Boot Framework.",
-          "Designed microservices architecture.",
-          "Designed of database model on MySQL",
-          "Implemented unit tests using JUnit.",
-          "Deployed on AWS using CI and CD."
-        ]
-      },
-      {
-        "company": "Ingeneo S.A.S",
-        "companyUrl": "https://ingeneo.com.co/",
-        "companyDescripcion": "Ingeneo is a company made up of young and enterprising people, with the aim of providing products and services of computer engineering with cutting-edge technology",
-        "position": "Senior Developer",
-        "location": "Medellín, Antioquia",
-        "startDate": "Jun 2017",
-        "endDate": "Mar 2018",
-        "descripcion": "Full stack developer for the e-commerce of Grupo Exito <a class='font-weight-bold' href='https://www.exito.com/' target='_blank'>www.exito.com</a>",
-        "responsibilities": [
-          "Developed a new Marketplace module using JSP.",
-          "Built new REST services using java 8.",
-          "Development and maintenance of new features."
-        ]
-      },
-      {
-        "company": "Pragma S.A.",
-        "companyUrl": "https://www.pragma.com.co/",
-        "companyDescripcion": "Pragma is a team of more than 380 people, present in more than 5 countries, with over 23 years in the market",
-        "position": "Project Engineer",
-        "location": "Medellín, Antioquia",
-        "startDate": "Aug 2014",
-        "endDate": "Jun 2017",
-        "descripcion": "Backend developer for payment portal for Grupo Aval <a class='font-weight-bold' href='https://avalpaycenter.com/' target='_blank'>www.avalpaycenter.com</a>",
-        "responsibilities": [
-          "Built new REST services using java 8.",
-          "Consume internal and external SOAP web services.",
-          "Designed of database model and optimization slow queries on Oracle 11c.",
-          "Development and maintenance of new releases."
-        ]
-      },
-      {
-        "company": "Metropolitana University",
-        "companyUrl": "http://www.unimetro.edu.co/",
-        "companyDescripcion": "Metropolitana University is a higher education institution specialized in health sciences",
-        "position": "Full Stack Developer",
-        "location": "Barranquilla, Atlantico",
+        "position": "Others",
         "startDate": "Aug 2012",
-        "endDate": "Aug 2014",
-        "descripcion": "Implement new features to the platform of the university, according to the needs of the users",
+        "endDate": "Aug 2019",
         "responsibilities": [
-          "Lead an IT department, attend new requirements and manage the tasks to the team",
-          "Developed new modules using JSP and java 8.",
-          "Designed of database model on Oracle 11c.",
-          "Optimization slow queries on Oracle 11c.",
-          "Development and maintenance of new features."
+          "Full Stack Developer - Bancolombia (Mar 2018 - Aug 2019)",
+          "Senior Developer - Ingeneo S.A.S (Jun 2017 - Mar 2018)",
+          "Project Engineer - Pragma S.A. (Aug 2014 - Jun 2017)",
+          "Full Stack Developer - Metropolitana University (Aug 2012 - Aug 2014)"
         ]
       }
     ]
