@@ -1,7 +1,7 @@
 {
   "profile": {
-    "name": "Leonardo Solano Arguello",
-    "title": "Full Stack Developer"
+    "name": "Leonardo Solano",
+    "title": "Full Stack Engineer"
   },
   "contact": {
     "title": "CONTACT",
@@ -26,14 +26,14 @@
         "href": "https://www.linkedin.com/in/lsolano2707/"
       },
       {
-        "icon": "icon-github",
-        "value": "github.com/lsolano2707",
-        "href": "https://github.com/lsolano2707"
-      },
-      {
         "icon": "icon-link",
         "value": "www.leonardosolano.com",
         "href": "https://www.leonardosolano.com"
+      },
+      {
+        "icon": "icon-github",
+        "value": "github.com/lsolano2707",
+        "href": "https://github.com/lsolano2707"
       }
     ]
   },
@@ -48,8 +48,8 @@
             "scale": 5
           },
           {
-            "name": "React",
-            "scale": 3
+            "name": "Angular",
+            "scale": 4
           },
           {
             "name": "TypeScript",
@@ -79,15 +79,11 @@
         ]
       },
       {
-        "title": "Web Services",
+        "title": "Cloud Platforms",
         "items": [
           {
-            "name": "REST",
-            "scale": 5
-          },
-          {
-            "name": "GraphQL",
-            "scale": 2
+            "name": "AWS",
+            "scale": 4
           }
         ]
       },
@@ -122,11 +118,15 @@
         ]
       },
       {
-        "title": "Cloud Platforms",
+        "title": "Web Services",
         "items": [
           {
-            "name": "AWS",
-            "scale": 3
+            "name": "REST",
+            "scale": 5
+          },
+          {
+            "name": "GraphQL",
+            "scale": 2
           }
         ]
       },
@@ -173,7 +173,7 @@
   "summary": {
     "title": "SUMMARY",
     "description2": "A Full Stack Developer with over 12 years years of experience developing software, passionate about programming, and new technologies.",
-    "description": "A Full Stack Developer with over 12 years of experience in the software industry. I have a lot of experience in Javascript and Typescript technologies. I love working with teams all over the world and learning about new cultures or technologies."
+    "description": "A Full-Stack Engineer with more than 12 years of experience in the software industry. I have a lot of experience in Javascript and Typescript technologies like Vue, Node and NestJS. I love working with teams around the world and learning about new technologies and cultures"
   },
   "workExperience": {
     "title": "WORK EXPERIENCE",
@@ -186,7 +186,7 @@
         "location": "Remote",
         "startDate": "May 2023",
         "endDate": "Current",
-        "descripcion": "Tech Lead for an international company in Colombia.",
+        "descripcion": "Tech Lead for a startup in the USA.",
         "responsibilities": [
           "Support the team members.",
           "Delegate tasks to the team.",
@@ -199,11 +199,11 @@
         "company": "FPT Software",
         "companyUrl": "https://fptsoftware.com/",
         "companyDescripcion": "A subsidiary of FPT Corporation – the leading ICT Group in Asia, FPT Software is a global technology and IT services provider with headquarter in Vietnam.",
-        "position": "Full Stack Developer",
+        "position": "Full-Stack Engineer",
         "location": "Remote",
         "startDate": "Aug 2021",
         "endDate": "May 2023",
-        "descripcion": "Full stack developer for an international company in USA.",
+        "descripcion": "Full-Stack Engineer for an international company in USA.",
         "responsibilities": [
           "Add new features using Angular 12 and Nodejs.",
           "Define the structure and components for the project, making sure they are reusable.",
@@ -212,14 +212,14 @@
         ]
       },
       {
-        "company": "PSL ",
-        "companyUrl": "https://www.psl.com.co/",
-        "companyDescripcion": "We are a purpose-led software company with 33 years of experience and over 700 driven and passionate engineers. PSL partners with its clients from nearshore locations to help them succeed on their most complex software development challenges. We deliver world-class quality software using agile processes and real-time interaction with our clients",
-        "position": "Full Stack Developer",
+        "company": "Perficient ",
+        "companyUrl": "https://www.perficient.com/",
+        "companyDescripcion": "Perficient is expanding its software development and delivery services with the acquisition of SMEDIX, Inc. a healthcare software engineering firm based in San Diego, California, with a location in Romania. We’re thrilled to welcome nearly 175 new colleagues to the Perficient team!",
+        "position": "Full-Stack Engineer",
         "location": "Medellín, Antioquia",
         "startDate": "Aug 2019",
         "endDate": "Aug 2021",
-        "descripcion": "Full stack developer for an international company in Canada.",
+        "descripcion": "Full-Stack Engineer for an international project in Canada.",
         "responsibilities": [
           "Develop and maintenance of new releases using Angular 9 and Nodejs.",
           "Define the structure and components for the project, making sure they are reusable.",
@@ -234,7 +234,7 @@
         "endDate": "Aug 2019",
         "responsibilities": [
           "Full Stack Developer - Bancolombia (Mar 2018 - Aug 2019)",
-          "Senior Developer - Ingeneo S.A.S (Jun 2017 - Mar 2018)",
+          "Full Stack Developer - Ingeneo S.A.S (Jun 2017 - Mar 2018)",
           "Project Engineer - Pragma S.A. (Aug 2014 - Jun 2017)",
           "Full Stack Developer - Metropolitana University (Aug 2012 - Aug 2014)"
         ]
@@ -275,12 +275,6 @@
   "certification": {
     "title": "CERTIFICATIONS",
     "items": [
-      {
-        "degree": " Scrum Master",
-        "institution": "Global TI",
-        "location": "Medellín, Antioquia",
-        "date": "Mar 2019"
-      },
       {
         "degree": "SOA Architect",
         "institution": "Itehl Consulting",

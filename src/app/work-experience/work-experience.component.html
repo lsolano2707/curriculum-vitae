@@ -1,11 +1,11 @@
 <h5 class="title">{{ 'workExperience.title' | translate }}</h5>
 
 <div
-  *ngFor="let item of 'workExperience.items' | translate"
+  *ngFor="let item of 'workExperience.items' | translate; index as i"
   class="card mb-3"
   style="border: none"
 >
-  <div class="row no-gutters">
+  <div *ngIf="!shortFormat || i <= 1" class="row no-gutters">
     <div class="col-sm-12 col-md-2">
       <h6 class="card-title d-none d-sm-block">
         {{ item.startDate }} -<br />

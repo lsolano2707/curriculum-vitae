@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -6,15 +7,26 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   langs: string[] = [];
   currentLanguage = 'english';
+  shortFormat = false;
 
-  constructor(private translate: TranslateService) {
+  constructor(
+    private translate: TranslateService, // private route: ActivatedRoute,
+  ) {
     this.translate.setDefaultLang('english');
     this.translate.use(this.currentLanguage);
     this.translate.addLangs(['english', 'spanish']);
     this.langs = this.translate.getLangs();
+    // this.isCanadaFormat = this.route.snapshot.queryParams.canada;
+    // console.log('this.isCanadaFormat', this.isCanadaFormat);
+  }
+
+  ngOnInit() {
+    // this.route.queryParams.subscribe((params) => {
+    //   console.log(params); // { orderby: "price" }
+    // });
   }
 
   changeLanguage(lang: string) {

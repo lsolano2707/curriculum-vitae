@@ -18,10 +18,10 @@
   <div class="card mb-3">
     <div class="row no-gutters">
       <!-- SIDEBAR WRAPPER -->
-      <div class="col-md-4 sidebar-wrapper">
+      <div class="col-4 sidebar-wrapper">
         <div class="card-body">
           <!-- PROFILE -->
-          <div class="row form-group text-center">
+          <div *ngIf="!shortFormat" class="row form-group text-center">
             <div class="col-12">
               <app-profile></app-profile>
             </div>
@@ -52,39 +52,33 @@
           </div>
           <!-- /LANGUAGES -->
 
-          <!-- <br>
-          <br>
-          <br>
-
-          <br>
-          <br>
-          <br>
-
-          <br>
-          <br>
-          <br>
-          <br>
-          <br> -->
-
           <div class="sidebar-mb"></div>
 
-          <br>
+          <br />
 
           <!-- REFERENCES -->
-          <div class="row form-group">
+          <!-- <div *ngIf="!shortFormat" class="row form-group">
             <div class="col-12">
               <app-references></app-references>
             </div>
-          </div>
+          </div> -->
           <!-- /REFERENCES -->
-          
         </div>
       </div>
       <!-- /SIDEBAR WRAPPER -->
 
       <!-- MAIN WRAPPER -->
-      <div class="col-md-8 main-wrapper">
+      <div class="col-8 main-wrapper">
         <div class="card-body">
+          <!-- NAME -->
+          <div *ngIf="shortFormat" class="row form-group">
+            <div class="col-12 text-center">
+              <h1 class="font-weight-bold">{{ 'profile.name' | translate }}</h1>
+              <br />
+            </div>
+          </div>
+          <!-- /NAME -->
+
           <!-- SUMMARY -->
           <div class="row form-group">
             <div class="col-12">
@@ -96,7 +90,9 @@
           <!-- WORK EXPERIENCE -->
           <div class="row form-group">
             <div class="col-12">
-              <app-work-experience></app-work-experience>
+              <app-work-experience
+                [shortFormat]="shortFormat"
+              ></app-work-experience>
             </div>
           </div>
           <!-- /WORK EXPERIENCE -->
@@ -109,7 +105,7 @@
           </div>
           <!-- /PROJECTS -->
 
-          <div class="main-mb"></div>
+          <!-- <div class="main-mb"></div> -->
 
           <!-- EDUCATION -->
           <div class="row form-group">
@@ -120,7 +116,7 @@
           <!-- /EDUCATION -->
 
           <!-- CERTIFICATION -->
-          <div class="row form-group">
+          <div *ngIf="!shortFormat" class="row form-group">
             <div class="col-12">
               <app-certification></app-certification>
             </div>
