@@ -52,11 +52,11 @@
             "scale": 4
           },
           {
-            "name": "TypeScript",
+            "name": "Javascript",
             "scale": 4
           },
           {
-            "name": "Javascript",
+            "name": "TypeScript",
             "scale": 4
           },
           {
@@ -122,6 +122,19 @@
         ]
       },
       {
+        "title": "AI",
+        "items": [
+          {
+            "name": "LLMs (ChatGPT, Gemini, Claude, etc)",
+            "scale": 5
+          },
+          {
+            "name": "MCP",
+            "scale": 3
+          }
+        ]
+      },
+      {
         "title": "Web Services",
         "items": [
           {
@@ -176,12 +189,28 @@
   },
   "summary": {
     "title": "SUMMARY",
-    "description2": "A Full Stack Developer with over 12 years years of experience developing software, passionate about programming, and new technologies.",
-    "description": "A Full-Stack Engineer with more than 12 years of experience in the software industry. I have a lot of experience in Javascript and Typescript technologies like Vue, Node and NestJS. I love working with teams around the world and learning about new technologies and cultures"
+    "description2": "A Full Stack Developer with over 13 years years of experience developing software, passionate about programming, and new technologies.",
+    "description": "A Full-Stack Engineer with more than 13 years of experience in the software industry. I have a lot of experience in Javascript and Typescript technologies like Vue, Node and NestJS. I love working with teams around the world and learning about new technologies and cultures"
   },
   "workExperience": {
     "title": "WORK EXPERIENCE",
     "items": [
+      {
+        "company": "Deel",
+        "companyUrl": "https://www.deel.com/",
+        "companyDescripcion": "A subsidiary of FPT Corporation – the leading ICT Group in Asia, FPT Software is a global technology and IT services provider with headquarter in Vietnam.",
+        "position": "Backend Engineer",
+        "location": "Remote",
+        "startDate": "Aug 2024",
+        "endDate": "Current",
+        "descripcion": "Backend Engineer for an international company in USA.",
+        "responsibilities": [
+          "Create integrations between Deel and Payspace to enable usage in new countries.",
+          "Expose new payroll reports for the PRMs (Payroll Relationship Managers).",
+          "Expose new services using nodejs and Nestjs.",
+          "Implemented unit tests using Jest."
+        ]
+      },
       {
         "company": "Viuboo",
         "companyUrl": "https://viuboo.com/",
@@ -189,7 +218,7 @@
         "position": "Tech Lead",
         "location": "Remote",
         "startDate": "May 2023",
-        "endDate": "Current",
+        "endDate": "Aug 2024",
         "descripcion": "Tech Lead for a startup in the USA.",
         "responsibilities": [
           "Support the team members.",
